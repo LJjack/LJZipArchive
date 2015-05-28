@@ -14,6 +14,17 @@
 		83B1E16B1B17075E00B4C6B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E16A1B17075E00B4C6B3 /* Images.xcassets */; };
 		83B1E16E1B17075E00B4C6B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E16C1B17075E00B4C6B3 /* LaunchScreen.xib */; };
 		83B1E17A1B17075E00B4C6B3 /* LJZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E1791B17075E00B4C6B3 /* LJZipArchiveTests.m */; };
+		83B1E1921B17078E00B4C6B3 /* LJZipArchive+LJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E1851B17078E00B4C6B3 /* LJZipArchive+LJ.m */; };
+		83B1E1931B17078E00B4C6B3 /* LJZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E1871B17078E00B4C6B3 /* LJZipArchive.m */; };
+		83B1E1941B17078E00B4C6B3 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E18A1B17078E00B4C6B3 /* ioapi.c */; };
+		83B1E1951B17078E00B4C6B3 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E18C1B17078E00B4C6B3 /* mztools.c */; };
+		83B1E1961B17078E00B4C6B3 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E18E1B17078E00B4C6B3 /* unzip.c */; };
+		83B1E1971B17078E00B4C6B3 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B1E1901B17078E00B4C6B3 /* zip.c */; };
+		83B1E19C1B1707B200B4C6B3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E1981B1707B200B4C6B3 /* 1.png */; };
+		83B1E19D1B1707B200B4C6B3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E1991B1707B200B4C6B3 /* 2.png */; };
+		83B1E19E1B1707B200B4C6B3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E19A1B1707B200B4C6B3 /* 3.png */; };
+		83B1E19F1B1707B200B4C6B3 /* image.zip in Resources */ = {isa = PBXBuildFile; fileRef = 83B1E19B1B1707B200B4C6B3 /* image.zip */; };
+		83B1E1A11B1707C500B4C6B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B1E1A01B1707C500B4C6B3 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,24 @@
 		83B1E1731B17075E00B4C6B3 /* LJZipArchiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJZipArchiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B1E1781B17075E00B4C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83B1E1791B17075E00B4C6B3 /* LJZipArchiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJZipArchiveTests.m; sourceTree = "<group>"; };
+		83B1E1841B17078E00B4C6B3 /* LJZipArchive+LJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LJZipArchive+LJ.h"; sourceTree = "<group>"; };
+		83B1E1851B17078E00B4C6B3 /* LJZipArchive+LJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LJZipArchive+LJ.m"; sourceTree = "<group>"; };
+		83B1E1861B17078E00B4C6B3 /* LJZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZipArchive.h; sourceTree = "<group>"; };
+		83B1E1871B17078E00B4C6B3 /* LJZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZipArchive.m; sourceTree = "<group>"; };
+		83B1E1891B17078E00B4C6B3 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		83B1E18A1B17078E00B4C6B3 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		83B1E18B1B17078E00B4C6B3 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		83B1E18C1B17078E00B4C6B3 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		83B1E18D1B17078E00B4C6B3 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		83B1E18E1B17078E00B4C6B3 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		83B1E18F1B17078E00B4C6B3 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		83B1E1901B17078E00B4C6B3 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		83B1E1911B17078E00B4C6B3 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		83B1E1981B1707B200B4C6B3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		83B1E1991B1707B200B4C6B3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		83B1E19A1B1707B200B4C6B3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		83B1E19B1B1707B200B4C6B3 /* image.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = image.zip; sourceTree = "<group>"; };
+		83B1E1A01B1707C500B4C6B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B1E1A11B1707C500B4C6B3 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				83B1E15C1B17075E00B4C6B3 /* LJZipArchive */,
+				83B1E1A21B1707CE00B4C6B3 /* Framework */,
 				83B1E1761B17075E00B4C6B3 /* LJZipArchiveTests */,
 				83B1E15B1B17075E00B4C6B3 /* Products */,
 			);
@@ -81,10 +112,15 @@
 		83B1E15C1B17075E00B4C6B3 /* LJZipArchive */ = {
 			isa = PBXGroup;
 			children = (
+				83B1E1831B17078E00B4C6B3 /* LJZipArchive */,
 				83B1E1611B17075E00B4C6B3 /* AppDelegate.h */,
 				83B1E1621B17075E00B4C6B3 /* AppDelegate.m */,
 				83B1E1641B17075E00B4C6B3 /* ViewController.h */,
 				83B1E1651B17075E00B4C6B3 /* ViewController.m */,
+				83B1E1981B1707B200B4C6B3 /* 1.png */,
+				83B1E1991B1707B200B4C6B3 /* 2.png */,
+				83B1E19A1B1707B200B4C6B3 /* 3.png */,
+				83B1E19B1B1707B200B4C6B3 /* image.zip */,
 				83B1E1671B17075E00B4C6B3 /* Main.storyboard */,
 				83B1E16A1B17075E00B4C6B3 /* Images.xcassets */,
 				83B1E16C1B17075E00B4C6B3 /* LaunchScreen.xib */,
@@ -117,6 +153,42 @@
 				83B1E1781B17075E00B4C6B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83B1E1831B17078E00B4C6B3 /* LJZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				83B1E1841B17078E00B4C6B3 /* LJZipArchive+LJ.h */,
+				83B1E1851B17078E00B4C6B3 /* LJZipArchive+LJ.m */,
+				83B1E1861B17078E00B4C6B3 /* LJZipArchive.h */,
+				83B1E1871B17078E00B4C6B3 /* LJZipArchive.m */,
+				83B1E1881B17078E00B4C6B3 /* minizip */,
+			);
+			path = LJZipArchive;
+			sourceTree = "<group>";
+		};
+		83B1E1881B17078E00B4C6B3 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				83B1E1891B17078E00B4C6B3 /* crypt.h */,
+				83B1E18A1B17078E00B4C6B3 /* ioapi.c */,
+				83B1E18B1B17078E00B4C6B3 /* ioapi.h */,
+				83B1E18C1B17078E00B4C6B3 /* mztools.c */,
+				83B1E18D1B17078E00B4C6B3 /* mztools.h */,
+				83B1E18E1B17078E00B4C6B3 /* unzip.c */,
+				83B1E18F1B17078E00B4C6B3 /* unzip.h */,
+				83B1E1901B17078E00B4C6B3 /* zip.c */,
+				83B1E1911B17078E00B4C6B3 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		83B1E1A21B1707CE00B4C6B3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				83B1E1A01B1707C500B4C6B3 /* libz.dylib */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B1E1691B17075E00B4C6B3 /* Main.storyboard in Resources */,
+				83B1E19C1B1707B200B4C6B3 /* 1.png in Resources */,
+				83B1E19D1B1707B200B4C6B3 /* 2.png in Resources */,
+				83B1E19F1B1707B200B4C6B3 /* image.zip in Resources */,
+				83B1E19E1B1707B200B4C6B3 /* 3.png in Resources */,
 				83B1E16E1B17075E00B4C6B3 /* LaunchScreen.xib in Resources */,
 				83B1E16B1B17075E00B4C6B3 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B1E1941B17078E00B4C6B3 /* ioapi.c in Sources */,
+				83B1E1921B17078E00B4C6B3 /* LJZipArchive+LJ.m in Sources */,
 				83B1E1661B17075E00B4C6B3 /* ViewController.m in Sources */,
+				83B1E1971B17078E00B4C6B3 /* zip.c in Sources */,
+				83B1E1931B17078E00B4C6B3 /* LJZipArchive.m in Sources */,
+				83B1E1951B17078E00B4C6B3 /* mztools.c in Sources */,
 				83B1E1631B17075E00B4C6B3 /* AppDelegate.m in Sources */,
+				83B1E1961B17078E00B4C6B3 /* unzip.c in Sources */,
 				83B1E1601B17075E00B4C6B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
