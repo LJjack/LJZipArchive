@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *imageviewBK = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width*0.5, self.view.bounds.size.height*0.5)];
+    UIImageView *imageviewBK = [[UIImageView alloc] init];
+    [imageviewBK setFrame:CGRectMake(0, 0, 200, 200)];
+    [imageviewBK setCenter:CGPointMake(self.view.center.x, 120)];
     [self.view addSubview:imageviewBK];
     UIButton *fourthButton = [[UIButton alloc]initWithFrame:CGRectMake(40, 500, 300, 50)];
     fourthButton.backgroundColor = [UIColor grayColor];
